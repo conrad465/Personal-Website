@@ -30,7 +30,7 @@ function escape(){
 function make_visible(node) {
     escape();
     node.className = "blurb-hover";
-}
+} 
 
 
 function keyUp(e){
