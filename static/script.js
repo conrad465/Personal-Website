@@ -8,12 +8,14 @@ var idc = "Interdisciplinary Design Challenge: Using arduino and sensory hardwar
 var learner = "Game Learner: A personal experiment, I implemented my own neural net and trained it to play games using an evolutionary process and partner learning.";
 var district = "Election Predictor: Based on existing research, this capstone project seeks to verify that demographic information can be used to accurately predict election"+
 " outcomes via machine learning. I scraped and cleaned census data to train several discrete classification algorithms to make predictions on congressional elections.";
+var healthy = "Healthie.us: At AngelHack in San Francisco, my team and myself created a web app that allows doctors to consult on a shared patient. I wrote the back end "+
+" functionality to integrate with rest APIs.";
 var hover = false;
-var messages = [vooga, idc, learner, district];
+var messages = [vooga, idc, learner, district, healthy];
 var carousel = document.querySelector("#carcon");
 var desc = document.querySelector(".description");
 var active = 0;
-var dict = {"p0":0, "p1":1, "p2":2, "p3":3};
+var dict = {"p0":0, "p1":1, "p2":2, "p3":3, 'p4':4};
 var proj_tab = document.querySelector("#project-tab");
 var skills_tab = document.querySelector("#skills-tab");
 var about_tab =document.querySelector("#about-tab");
@@ -30,7 +32,7 @@ function escape(){
 function make_visible(node) {
     escape();
     node.className = "blurb-hover";
-} 
+}
 
 
 function keyUp(e){

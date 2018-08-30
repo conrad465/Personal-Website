@@ -1,9 +1,9 @@
 .nav{
-		display:flex;
-	justify-content: center;
-	justify-content: space-around;
-	align-self: center;
-	max-height: 5vh;
+    display:flex;
+  justify-content: center;
+  justify-content: space-around;
+  align-self: center;
+  max-height: 5vh;
   margin-bottom: 20px;
   background-color:rgba(71,71,71,.2);
   color:rgb(20, 108, 224);
@@ -71,8 +71,8 @@ html, body {
 
 
 .sub-blurb{
-
-
+  max-height:100%;
+  max-height:100%;
   margin-top: 15px;
   width: 100%;
   height: 90%;
@@ -118,7 +118,7 @@ html, body {
 
 h1{
   margin-right: 10px;
-	font-size:20px;
+  font-size:20px;
   text-shadow: -1px 0px 0px #A0A0A0;
   color: #A0A0A0;
 }
@@ -130,32 +130,33 @@ h1{
 }
 
 .img-fluid{
-   max-width:100%;
-   height:auto;
-   max-height:100%;
-   margin-left: auto;
-    margin-right: auto;
-   }
+  display:block;
+  height:38ch;
+  width:70ch;
+  object-fit:contain;
+  }
 
 .button:hover{
   cursor: pointer;
 }
 
 .carousel-item{
-  height:40vh;
-  width:70vh; 
+  max-height:100%;
+  max-width:100%;
   justify-content: center;
   margin-top: 10px;
 
 }
 
 .carousel-container{
-
+  max-height:100%;
+  max-width:100%;
   display: flex;
   flex-direction: row;
 }
+
 .carousel{
-  max-width: 50%
+  max-width: 60%
 }
 
 
@@ -172,6 +173,11 @@ h1{
 .thumb{
   padding: 1px;
   opacity: 100;
+}
+
+.carousel-inner{
+  max-width:100%;
+  max-height:100%;
 }
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
