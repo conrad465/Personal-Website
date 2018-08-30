@@ -12,7 +12,7 @@ var healthy = "Healthie.us: At AngelHack in San Francisco, my team and myself cr
 " functionality to integrate with rest APIs.";
 var website = "Personal Website: I created this entire website from scratch as an experiment with web development and to showcase some of my favorite projects.";
 var hover = false;
-var messages = [vooga, idc, learner, district, healthy];
+var messages = [vooga, idc, learner, district, healthy, website];
 var carousel = document.querySelector("#carcon");
 var desc = document.querySelector(".description");
 var active = 0;
